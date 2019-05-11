@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dm initsize="986,528" minsize="200,200" bresize="1" btranslucent="1">
+	<root clrbg="pbgra(3a,3a,3a,ff)">
+		<window clrbg="pbgra(59,59,59,ff)" pos="0,0,-0,@33" bdrag="1">
+			<static pos="5,2,@307,-0" text="DM的宏转换小工具" align="left" font="size:30,weight:700" clrtext="pbgra(ff,ff,ff,ff)" />
+			<button name="closebutton" pos="-22,1,@21,@15" skin="closebutton" tiptext="关闭" />
+			<button name="maxbutton" pos="-42,1,@20,@15" skin="maxbutton" tiptext="最大化" />
+			<button name="restorebutton" pos="-42,1,@20,@15" skin="restorebutton" bvisible="0" tiptext="向下还原" />
+			<button name="minbutton" pos="-62,1,@20,@15" skin="minbutton" tiptext="最小化" />
+		</window>
+		<richedit name="dest_edit" pos="%1,46,-15,-65" text="" ncmargin="1,1,1,1" clrnc="pbgra(00,00,00,ff)" clrbg="pbgra(dd,dd,dd,ff)" bmultilines="1" bvscroll="1" bwordwrap="1" bautowscroll="1" bwantreturn="1" benabledrag="1" sbskin="scrollbar" arrowwidth="0" />
+		<Button name="convert_btn" pos="-206,-52,@191,@37" text="点击转换" ncmargin="1,1,1,1" clrnc="pbgra(00,00,00,ff)" clrbg="pbgra(c0,c0,c0,ff)" clrbghover="pbgra(ff,ff,ff,ff)" />
+	</root>
+</dm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<dm initsize="554,193" minsize="200,200" bresize="1" btranslucent="1">
+	<root clrbg="pbgra(3a,3a,3a,ff)">
+		<window clrbg="pbgra(59,59,59,ff)" pos="0,0,-0,@33" bdrag="1">
+			<static pos="31,1,@180,-4" text="新建项目" align="left" font="size:30,weight:700" clrtext="pbgra(ff,ff,ff,ff)" />
+			<button name="closebutton" pos="-22,1,@21,@15" skin="closebutton" tiptext="关闭" />
+			<button name="restorebutton" pos="-42,1,@20,@15" skin="restorebutton" bvisible="0" tiptext="向下还原" />
+			<button name="minbutton" pos="-40,0,@20,@15" skin="minbutton" tiptext="最小化" />
+			<Static pos="4,3,@24,@24" skin="opendir" />
+		</window>
+		<static pos="10,50,@130,@28" text="解决方案所在路径:" align="left" font="size:14,weight:700" clrtext="pbgra(ff,ff,ff,ff)" />
+		<edit name="solupath" pos="143,51,-108,@26" surfacetext="解决方案所在路径" ncmargin="1,1,1,1" clrnc="pbgra(00,00,00,ff)" clrbg="pbgra(dd,dd,dd,ff)" surfacetextclr="pbgra(ff,ff,ff,ff)" breadonly="1" />
+		<Button name="opensolubtn" pos="456,51,@89,@24" text="打开目录" ncmargin="1,1,1,1" clrnc="pbgra(00,00,00,ff)" clrbg="pbgra(dd,dd,dd,ff)" bfocusable="1" />
+		<static pos="8,90,@132,@28" text="解决方案名称:" align="right" font="size:14,weight:700" clrtext="pbgra(ff,ff,ff,ff)" />
+		<edit name="soluname" pos="142,92,@110,@26" surfacetext="解决方案名称" ncmargin="1,1,1,1" clrnc="pbgra(00,00,00,ff)" clrbg="pbgra(dd,dd,dd,ff)" surfacetextclr="pbgra(ff,ff,ff,ff)" />
+		<static pos="253,91,@75,@28" text="工程名称:" align="right" font="size:14,weight:700" clrtext="pbgra(ff,ff,ff,ff)" />
+		<edit name="projname" pos="333,94,@114,@26" surfacetext="工程名称" ncmargin="1,1,1,1" clrnc="pbgra(00,00,00,ff)" clrbg="pbgra(dd,dd,dd,ff)" surfacetextclr="pbgra(ff,ff,ff,ff)" />
+		<Button name="makebtn" pos="455,94,@89,@24" text="生成" ncmargin="1,1,1,1" clrnc="pbgra(00,00,00,ff)" clrbg="pbgra(dd,dd,dd,ff)" bfocusable="1" />
+		<Static pos="9,132,@537,@57" text="1.拷贝DMMain文件夹到解决方案\n2.使用CMAKE构建工程\n3.用设计器新建MyRes资源,放在bin目录下" ncmargin="1,1,1,1" clrnc="pbgra(00,00,00,ff)" clrbg="pbgra(dd,dd,dd,ff)" bmultiLines="1" />
+	</root>
+</dm>

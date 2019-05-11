@@ -1,0 +1,11 @@
+﻿<dm  initsize="514,264" minsize="514,264" maxsize="514,264" bresize="0" btranslucent="0" alpha = "255">
+	<root><!--root做为唯一的标识,它等同于window Node-->
+		<window pos="0,0,-0,-0" skin="login_skin:main" bfocusable="1">
+			<window pos="0,0,-0,@21" bdrag="1"><!--可拖动区-->
+				<button name="button_close" pos="-32,11,@9,@9" 	skin="button_close" cursor="hand"/>
+				<button name="button_mini"  pos="-59,11,@9,@12" skin="button_mini" cursor="hand" />
+			</window>
+			<button pos="272,74,@203,@32" skin="button_login" />
+		</window>
+	</root>
+</dm>
